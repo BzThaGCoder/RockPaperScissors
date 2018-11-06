@@ -13,7 +13,6 @@ public class RockPaperScissors {
 
         System.out.println("Player One: Choose your weapon!");
         player1 = scn.nextInt();
-
         if (player1 == 4)
         {
             System.out.println("Player One and Player Two are tied with " +  player1Count +  " points.");
